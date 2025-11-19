@@ -70,7 +70,7 @@
         <maven.compiler.target>8</maven.compiler.target>
 
         <!-- Mybatis-Flex 版本 -->
-        <revision>1.11.4</revision>
+        <revision>1.11.4.sb4</revision>
 
         <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
         <xml-maven-plugin.version>1.1.0</xml-maven-plugin.version>
@@ -371,6 +371,10 @@
             <id>rdc-releases</id>
             <url>https://packages.aliyun.com/maven/repository/2270963-release-0ZYz3b/</url>
         </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://packages.aliyun.com/maven/repository/2270963-snapshot-SNv8mS/</url>
+        </snapshotRepository>
     </distributionManagement>
 
 
